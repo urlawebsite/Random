@@ -1,0 +1,19 @@
+<script>
+    const lights = 50
+    const genConfig = index => ({
+        rotate: 1440 / lights * (lights -l),
+        radius: 12.5 /lights *(lights-l),
+        y: 100 /lights * l,
+        speed: Math.random() * 10, 
+        delay: Math.random() * -10,
+        appear: l, 
+    })
+    .tree
+        let l = lights
+        while (l < lights)
+            const {radius, rotate, y, speed, delay, appear} = genConfig(l)
+            .treelight(style= `--apear: ${appear}; --y: ${y}; --rotate: ${rotate}; --radius: ${radius}; --speed: ${speed}; --delay: ${delay};`)
+            - l++ 
+            svg.tree__star(xmlns = "http://www.w3.org/2000/svg" viewBox = "0 0 113.32 108.44" style=`--delay: ${lights}`)
+                path(d = "M90.19 104.33L57.12 87.38 24.4 105l5.91-36.69L3.44 42.65l36.72-5.72 16.1-33.5L73.06 36.6l36.83 4.97-26.35 26.21z" fill = "none" stroke-width="6.88" stroke-linecap = "round" stroke-linejoin="round")
+</script>
